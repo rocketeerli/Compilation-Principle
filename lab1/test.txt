@@ -1,0 +1,8 @@
+int a = 1;
+float b = 9.0;
+do {
+int i = 0;
+if (i<a) {
+break;
+}  /* lalalalal*/
+} while(i>0);
