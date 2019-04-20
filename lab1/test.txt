@@ -1,8 +1,10 @@
-int a = 1;
-float b = 9.0;
+int i;
+i=i+1;
+if(true) {
+	i=i+1;
+} else {
+	i=i-1;
+}
 do {
-int i = 0;
-if (i<a) {
-break;
-}  /* lalalalal*/
-} while(i>0);
+	i=i+2;
+}while(true);

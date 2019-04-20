@@ -98,7 +98,9 @@ public class Parser {
 			Tool.addToken(String.valueOf(ch), Tool.getKEYKIND().get(String.valueOf(ch)), "-");
 			return i;
 		case '+':
-			return i;
+			return dealStartedAdd(i);
+		case '-':
+			return dealStartedSub(i);
 		case '*':
 			return dealStartedMul(i);
 		case '/':
@@ -124,16 +126,16 @@ public class Parser {
 	 * */
 	public int dealStartedAdd(int i) {
 		String word = "" + code.charAt(i);
-		char ch = code.charAt(++i);
+		char ch = code.charAt(i+1);
 		if (ch == '=') {
 			word = word + ch;
-			ch = code.charAt(++i);
+			++i;
 		} else if (ch == '+') {
 			word = word + ch;
-			ch = code.charAt(++i);
+			++i;
 		}
 		Tool.addToken(word, Tool.getKEYKIND().get(word), "-");
-		return i-1;
+		return i;
 	}
 	
 	/**

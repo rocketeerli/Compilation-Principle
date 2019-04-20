@@ -56,6 +56,8 @@ public class Tool {
 		KEYKIND.put("for", "FOR");
 		KEYKIND.put("return", "RETURN");
 		KEYKIND.put("break", "BREAK");
+		KEYKIND.put("true", "TRUE");
+		KEYKIND.put("false", "FALSE");
 	}
 	private static List<Token> tokenList = new ArrayList<Token>();
 	private static String erroInfo;
