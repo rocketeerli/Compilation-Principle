@@ -1,0 +1,15 @@
+ST -> P
+P -> D S A G
+D -> T L ;
+T -> int
+L -> id
+E -> E + T
+E -> E - T
+E -> T
+T -> F
+F -> id
+F -> num
+S -> id = E ;
+A -> if ( B ) { S } else { S }
+B -> true | false
+G -> do { S } while ( B ) ;
