@@ -1,0 +1,11 @@
+ST -> P
+P -> D D S S
+D -> T L ;
+T -> int | float | double
+L -> id
+S -> id = E ;
+E -> E + E
+E -> E * E
+E -> - E
+E -> ( E )
+E -> id | num
