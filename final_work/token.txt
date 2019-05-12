@@ -1,0 +1,16 @@
+int	<INT	,  -	>
+i	<IDN	,  i	>
+;	<SEMI	,  -	>
+float	<FLOAT	,  -	>
+j	<IDN	,  j	>
+;	<SEMI	,  -	>
+i	<IDN	,  i	>
+=	<E	,  -	>
+11	<CONST	,  11	>
+;	<SEMI	,  -	>
+j	<IDN	,  j	>
+=	<E	,  -	>
+i	<IDN	,  i	>
++	<ADD	,  -	>
+2	<CONST	,  2	>
+;	<SEMI	,  -	>

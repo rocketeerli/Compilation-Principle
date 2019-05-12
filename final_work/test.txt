@@ -1,0 +1,4 @@
+int i;
+float j;
+i = 11;
+j = i + 2;
